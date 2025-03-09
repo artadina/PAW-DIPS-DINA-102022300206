@@ -25,7 +25,7 @@ $namaErr = $emailErr = $nimErr = "";
     // silakan taruh kode kalian di bawah
         $nim = $_POST["nim"];
         if (empty($nim)){
-            $nimErr = "NIM harus diisi!";
+            $nimErr = "NIM wajib diisi!";
         } elseif (!ctype_digit($nim)){
             $nimErr = "NIM harus berupa angka!";
         }
